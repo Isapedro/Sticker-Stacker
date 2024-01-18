@@ -1,0 +1,20 @@
+.game-container{
+  width: calc(48px * 6) + 4px;
+}
+.grid{
+  width:calc(48px * 6) + 4px; ;
+display: flex;
+flex-wrap: wrap;
+}
+
+.cell{
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  outline: 1px dashed black;
+}
+.bar{
+  background-color: #f1754e;
+  border-radius: 8px;
+  border: 2px solid rgb(0, 23, 50);
+}
