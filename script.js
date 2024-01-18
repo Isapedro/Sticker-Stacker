@@ -29,6 +29,9 @@ function draw(){
     rowContent.forEach(function(cellContent){
       const cell = document.createElement("div");
       cell.classList.add("cell")
-    })
-  })
+      grid.appendChild(cell);
+    });
+    
+  });
 }
+draw();

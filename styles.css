@@ -1,8 +1,8 @@
 .game-container{
-  width: calc(48px * 6) + 4px;
+  width: calc((48px * 6) + 4px);
 }
 .grid{
-  width:calc(48px * 6) + 4px; ;
+  width:calc((48px * 6) + 4px); 
 display: flex;
 flex-wrap: wrap;
 }
